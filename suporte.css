@@ -67,9 +67,9 @@ h2 {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #9b6dff;
+    border-color: #0c0fda;
     background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 15px rgba(155, 109, 255, 0.3);
+    box-shadow: 0 0 15px rgba(27, 116, 218, 0.3);
 }
 
 textarea {
@@ -80,7 +80,7 @@ textarea {
 button {
     grid-column: 1 / -1;
     padding: 8px;
-    background: linear-gradient(45deg, #9b6dff, #6d5bff);
+    background: linear-gradient(45deg, #1630c2, #3d72e4);
     border: none;
     border-radius: 4px;
     color: #fff;
@@ -93,17 +93,17 @@ button {
 
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(155, 109, 255, 0.4);
+    box-shadow: 0 5px 15px rgba(4, 155, 255, 0.438);
 }
 
 .success-message {
     display: none;
-    color: #4CAF50;
+    color: #14e6e6;
     text-align: center;
     margin-top: 0.5rem;
     padding: 8px;
     border-radius: 8px;
-    background: rgba(76, 175, 80, 0.1);
+    background: rgba(21, 170, 214, 0.1);
     font-size: 0.9rem;
 }
 
@@ -115,7 +115,7 @@ button:hover {
 
 .error {
     animation: shake 0.5s ease-in-out;
-    border-color: #ff6b6b !important;
+    border-color: #0c0fda !important;
 }
 
 /* Media Queries para Responsividade */
